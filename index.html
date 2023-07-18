@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triangle Country Club</title>
+    <link rel="stylesheet" href="style.css">
+    <header><img src="./img/Small logo2.png" ></header>
+    <style>
+      img {
+        align-items: center;
+      }
+    </style>
+                    
+      </head>
+<body>
+    <body>
+        <nav>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="About.html">About</a></li>  
+              <li><a href="Services.html">Services</a></li>  
+              <li><a href="Pictures.html">Pictures</a></li>  
+              <li><a href="Contacts.html">Contacts</a></li>   
+              <li><a href="Sections.html">Sections</a></li>
+            </ul>
+        </nav>  
+        <section class="welcome">
+                    <div class="slider">
+            <div class="slides">            
+              <input type="radio" name="radio-btn" id="radio1">
+              <input type="radio" name="radio-btn" id="radio2">
+              <input type="radio" name="radio-btn" id="radio3">
+              <input type="radio" name="radio-btn" id="radio4"> 
+              
+               
+              <div class="slide first">
+                <img src="./img/TCC Entrance.jpg" alt="">
+              </div>
+              <div class="slide">
+                <img src="./img/Cocktail Ambience.jpg" alt="">
+              </div>
+              <div class="slide">
+                <img src="./img/Accomodation.jpg" alt="">
+              </div>
+              <div class="slide">
+                <img src="./img/Baobab Restaurant.jpg" alt="">
+              </div>
+
+              <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+              </div>
+
+              <div class="navigation-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+              </div>
+
+              
+        </section>
+            </div>
+          </section>
+          <section id="newsletter">
+          <div class="container1">
+          <h1>Subscribe For Membership</h1>
+          <form>
+              <input type="email" placeholder="Enter Email..." required>
+              <button type="submit" class="button_1">Subscribe</button>
+          </form>
+          </div>
+          </section>
+          </section>
+          <section id="boxes">
+          <div class="container1">
+              <div class="box"><img src="./img/Accomodation.jpg">
+                  <h3>Accomodation</h3>
+                  <p>We provide world class accomodation. Our Chalets are equipped with running hot and cold 
+                    water, air-conditioner and standard hotel DSTV bouquet. We also provide Wifi.  
+                  </p>
+                  </div>
+                  <div class="box"><img src="./img/Food and Beverages.jpg">
+                  <h3>Food and Beverages</h3>
+                      <p>Our Restaurant provides mouth-watering local and international Cuisines. With
+                        a wide range of Menu items. We have three Bars to cater for our guest needs, with assortment
+                        of local and international brands of liquor.
+                      </p>
+                      </div>
+                      <div class="box"><img src="./img/Sporting Facilities.jpg">
+                          <h3>Sporting Facilities</h3>
+                          <p>We are a sporting facility that offer a variety of facilites. We have one the best Golf
+                            Course in Zimbabwe. In our establishment we have a Gym, two Squash Courts, several Tennis Courts,
+                             Rugby and a Cricket Ground. 
+                          </p>
+                          </div>
+          </div>
+
+          </div>
+        </section>         
+        <footer>
+                     
+            <div class="footer-welcome">
+            
+              <p>Welcome to Triangle Country Club</p>
+            </div> <!-- end footer-welcome -->
+            
+                      
+            <div class="footer-contact">
+              <p>Visit <a href="#">Triangle Country Club, </a>+263312336492 or 
+                <a href="#">+263774045150</a></p>
+            </div>
+            <div class="footer-copyright">
+              <p>Copyright © 2023 Triangle Country Club. All rights reserved.</p>
+            </div>
+              
+              
+              <div class="footer-lang">
+                <div class="circle">
+                  <img src="./img/Zim Flag.jfif">
+                </div>
+                <p>English</p>
+                <div class="vr"></div>
+                <p>Zimbabwe</p>
+              </div>
+            </div>
+            
+          </div>
+        </footer>
+        <script type="text/javascript">
+          var counter = 1;
+          setInterval (function(){
+            document.getElementById('radio' + counter).checked = true;
+            counter++;
+            if(counter > 4){
+              counter = 1;
+            }
+          }, 5000);
+        </script>
+      </body>
+</body>
+</html>
